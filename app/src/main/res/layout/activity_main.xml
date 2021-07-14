@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E956F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/almendra"
+        android:text="Nama   "
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/head_nama"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/almendra"
+        android:textColor="@color/white"
+        android:hint="Input Nama"
+        />
+
+    <TextView
+        android:id="@+id/head_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/almendra"
+        android:textColor="@color/white"
+        android:text="NIM "
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/almendra"
+        android:hint="Input NIM"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/head_nama"
+        android:textColor="@color/white"
+        android:layout_marginTop="190dp"
+        />
+    <TextView
+        android:id="@+id/head_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/almendra"
+        android:textColor="@color/white"
+        android:text="Alamat"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/almendra"
+        android:hint="Input Alamat"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/head_add"
+        android:textColor="@color/white"
+        android:layout_marginTop="290dp"
+        />
+
+    <TextView
+        android:id="@+id/head_ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/almendra"
+        android:textColor="@color/white"
+        android:text="TTL"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/almendra"
+        android:hint="Input tanggal lahir"
+        android:inputType="date"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/head_add"
+        android:textColor="@color/white"
+        android:layout_marginTop="390dp"
+        />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+
+</RelativeLayout>

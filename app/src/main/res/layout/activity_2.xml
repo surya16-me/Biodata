@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/foto"/>
+
+    <TextView
+        android:id="@+id/head_perkenalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/almendra"
+        android:layout_marginTop="350dp"
+        android:text="Salam Kenal, saya adalah "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nama_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/head_perkenalan"
+        android:fontFamily="@font/almendra"
+        android:layout_marginTop="350dp"
+        android:text="nama"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/head_noin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/almendra"
+        android:text="Nim saya adalah"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nim_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:layout_toRightOf="@+id/head_noin"
+        android:fontFamily="@font/almendra"
+        android:text="nim"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/head_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/almendra"
+        android:text="Alamat saya "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/add_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@+id/head_add"
+        android:fontFamily="@font/almendra"
+        android:text="add"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/head_ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/almendra"
+        android:text="Tanggal lahir "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ttl_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:layout_toRightOf="@+id/head_ttl"
+        android:fontFamily="@font/almendra"
+        android:text="add"
+        android:textSize="16sp" />
+
+
+
+</RelativeLayout>
